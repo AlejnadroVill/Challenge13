@@ -1,25 +1,28 @@
+// Imports
 const { Model, DataTypes } = require("sequelize");
-
 const sequelize = require("../config/connection.js");
 
+// Category class inherits from the Model class
 class Category extends Model {}
 
+// Category class (Model)
 Category.init(
   {
-    // define columns
+    // Category id
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
     },
-
+    // Category name
     categoryName: {
       type: DataTypes.STRING,
       allowNull: false,
     },
   },
   {
+    // Model settings
     sequelize,
     timestamps: false,
     freezeTableName: true,
@@ -28,4 +31,5 @@ Category.init(
   }
 );
 
+// Exports
 module.exports = Category;
