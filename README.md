@@ -29,24 +29,6 @@ This is a backend server that manages an online store's products, categories, an
 
 To learn how to use My Online Store, click on the following link to see its walkthrough video:
 
-## Credits
-
-1. To learn about sequelize models:
-
-   - Sequelize Contributors. (2024, June 20). Model basics. Model basics | Sequelize. https://sequelize.org/docs/v6/core-concepts/model-basics/
-
-2. To learn about sequelize primary and foreign keys:
-
-   - Sequelize Contributors. (2024, June 20). Working with legacy tables. Working with legacy tables | Sequelize. https://sequelize.org/docs/v6/other-topics/legacy/
-
-3. To learn about sequelize model associations:
-
-   - Sequelize Contributors. (2024, June 20). Associations. Associations | Sequelize. https://sequelize.org/docs/v6/core-concepts/assocs/
-
-4. To learn about sequelize validation and constraints:
-
-   - Sequelize Contributors. (2024, June 20). Validations & Constraints. Validations & Constraints | Sequelize. https://sequelize.org/docs/v6/core-concepts/validations-and-constraints/
-
 ## **License**
 
 ![GitHub](https://img.shields.io/github/license/AlejnadroVill/Challenge13?style=for-the-badge)
